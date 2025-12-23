@@ -15,21 +15,21 @@ export default function Navbar() {
 
         <nav className="flex gap-2">
           <NavLink
-            to="/tierlist"
-            className={({ isActive }) =>
-              `${linkBase} ${isActive ? linkActive : linkInactive}`
-            }
-          >
-            Tier List
-          </NavLink>
-
-          <NavLink
             to="/flow"
             className={({ isActive }) =>
               `${linkBase} ${isActive ? linkActive : linkInactive}`
             }
           >
             Flowchart
+          </NavLink>
+
+          <NavLink
+            to="/tierlist"
+            className={({ isActive }) =>
+              `${linkBase} ${isActive ? linkActive : linkInactive}`
+            }
+          >
+            Tier List
           </NavLink>
         </nav>
       </div>
