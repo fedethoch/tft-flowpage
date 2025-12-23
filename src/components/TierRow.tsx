@@ -47,7 +47,6 @@ export default function TierRow({
   comps: Composition[];
 }) {
   const setTier = useAppStore((s) => s.setTier);
-  const openComp = useAppStore((s) => s.openComp);
   const isAdmin = useAppStore((s) => s.isAdmin);
   const [isOver, setIsOver] = useState(false);
 
