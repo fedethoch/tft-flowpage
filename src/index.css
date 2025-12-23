@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-neutral-950 text-neutral-100 antialiased;
+  }
+  body {
+    @apply bg-neutral-950 text-neutral-100;
+  }
+}
+
+/* Árbol minimal (líneas sutiles) */
+.tree-children {
+  margin-left: 16px; /* Más espacio */
+  padding-left: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.08); /* Más sutil */
+}
+
+.tree-leaf {
+  position: relative;
+  padding-left: 24px;
+  margin-top: 16px; /* Más aire entre items */
+}
+
+.tree-leaf::before {
+  content: "";
+  position: absolute;
+  left: -24px; /* Ajustar con el padding */
+  top: 24px; /* Alinear con el centro visual aprox del card */
+  width: 24px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}

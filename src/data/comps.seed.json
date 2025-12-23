@@ -1,0 +1,133 @@
+[
+  {
+    "id": "bw-miss-fortune",
+    "name": "Bilgewater Miss Fortune",
+    "tier": "S",
+    "itemizacion": "AD",
+    "estilo": "FAST9",
+    "heroAugment": false,
+    "condicion": "Bilgewaters Opener",
+
+    "carryImageUrl": "/assets/set 16/carries/mf bilgewater.png",
+    "compImageUrl": "/assets/set 16/comps/mf bilgewater.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/miss fortune.png",
+      "/assets/set 16/items/tham kench.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/mf bilgewater.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_91e3e85e-348e-4e9b-86fc-ffc8ffc60bd9"
+  },
+  {
+    "id": "yunara-ionia",
+    "name": "Yunara Ionia",
+    "tier": "A",
+    "itemizacion": "AD",
+    "estilo": "FAST9",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/yunara ionia.png",
+    "compImageUrl": "/assets/set 16/comps/yunara ionia.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/ionia.png"],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/yunara ionia.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_72f91e12-a236-4794-a4d0-4a481f5d04a5"
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "tier": "S",
+    "itemizacion": "BRUISER",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/diana.png",
+    "compImageUrl": "/assets/set 16/comps/diana.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/diana.png"],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/diana.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_384b426b-444e-471a-b6f5-25f95eb914fa"
+  },
+  {
+    "id": "void-baron",
+    "name": "Void Baron",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST9",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/void baron.png",
+    "compImageUrl": "/assets/set 16/comps/void baron.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/baron.png",
+      "/assets/set 16/items/kaisa.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/void baron.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_dab9d3b8-10b5-4026-8aed-c46e0d700e91"
+  },
+  {
+    "id": "demacia-vayne",
+    "name": "Demacia",
+    "tier": "A",
+    "itemizacion": "AD",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/demacia.png",
+    "compImageUrl": "/assets/set 16/comps/demacia.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/vayne.png",
+      "/assets/set 16/items/lux.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/demacia.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_0d163959-40e1-49e0-a574-a8f38b716e4d"
+  },
+  {
+    "id": "voli-ryze",
+    "name": "Voli Ryze",
+    "tier": "A",
+    "itemizacion": "BRUISER",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/voli ryze.png",
+    "compImageUrl": "/assets/set 16/comps/voli ryze.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/ryze.png",
+      "/assets/set 16/items/voli.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/voli ryze.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_3e6b0532-1983-4dfc-bb1e-aef244f87346"
+  },
+  {
+    "id": "trynda-ashe",
+    "name": "Trynda Ashe",
+    "tier": "A",
+    "itemizacion": "BRUISER",
+    "estilo": "REROLL",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/trynda ashe.png",
+    "compImageUrl": "/assets/set 16/comps/trynda ashe.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/trynda.png",
+      "/assets/set 16/items/ashe.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/trynda ashe.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_3e6b0532-1983-4dfc-bb1e-aef244f87346"
+  },
+  {
+    "id": "annie-arcanist",
+    "name": "Annie Arcanist",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/annie arcanist.png",
+    "compImageUrl": "/assets/set 16/comps/annie arcanist.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/annie.png",
+      "/assets/set 16/items/sylas.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/annie arcanist.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_cde20ddb-3c52-42ac-b6f3-ef755d152d42"
+  }
+]
