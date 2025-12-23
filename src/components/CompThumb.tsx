@@ -1,6 +1,5 @@
 import type { Composition } from "../lib/types";
 import { useAppStore } from "@/state/useAppStore";
-import { useState } from "react";
 
 export default function CompThumb({
   comp,
@@ -9,8 +8,12 @@ export default function CompThumb({
   comp: Composition;
   onDragStart: (e: React.DragEvent) => void;
 }) {
-  const [open, setOpen] = useState(false);
+  const selectedCompId = useAppStore((s) => s.selectedCompId);
+  const openComp = useAppStore((s) => s.openComp);
+  const closeComp = useAppStore((s) => s.closeComp);
   const isAdmin = useAppStore((s) => s.isAdmin);
+
+  const open = selectedCompId === comp.id;
 
   return (
     <div
@@ -25,7 +28,7 @@ export default function CompThumb({
           if (isAdmin) onDragStart(e);
           else e.preventDefault();
         }}
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => (open ? closeComp() : openComp(comp.id))}
         className={`rounded-2xl border transition hover:border-white/20 ${
           open
             ? "border-white/20 bg-white/[0.06] w-full flex flex-col p-4"
