@@ -82,7 +82,7 @@ export default function CompCard({ comp }: { comp: Composition }) {
                     key={i}
                     src={url}
                     alt={`Items ${i + 1}`}
-                    className="h-[160px] w-auto max-w-full rounded-lg bg-white/5 border border-white/10 object-contain"
+                    className="h-[80px] sm:h-[160px] w-auto max-w-full rounded-lg bg-white/5 border border-white/10 object-contain"
                     loading="lazy"
                   />
                 ))}

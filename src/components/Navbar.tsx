@@ -8,7 +8,7 @@ const linkActive = "border-white/20 text-white bg-white/10";
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur">
-      <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div className="mx-auto max-w-6xl px-3 sm:px-4 py-3 flex flex-wrap items-center justify-between gap-2">
         <div className="font-extrabold tracking-tight">
           TFT <span className="text-white/60">Flow</span>
         </div>

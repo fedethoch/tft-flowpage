@@ -12,11 +12,11 @@ export default function TreeView({ comps }: { comps: Composition[] }) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <h1 className="text-xl font-extrabold">Flowchart</h1>
 
         {/* filtros de tier visibles (afecta al flow) */}
-        <div className="flex bg-white/[0.03] p-1 rounded-xl border border-white/5">
+        <div className="flex bg-white/[0.03] p-1 rounded-xl border border-white/5 overflow-x-auto max-w-full no-scrollbar">
           {(["S", "A", "B", "C", "D"] as Tier[]).map((t) => {
             const isActive = tierVisible[t];
             return (
@@ -24,7 +24,7 @@ export default function TreeView({ comps }: { comps: Composition[] }) {
                 key={t}
                 onClick={() => toggleTierVisible(t)}
                 className={`
-                  px-3 py-1 rounded-lg text-sm font-bold transition-all
+                  px-3 py-1 rounded-lg text-sm font-bold transition-all whitespace-nowrap
                   ${
                     isActive
                       ? "bg-indigo-500/20 text-indigo-300 shadow-[0_0_10px_rgba(99,102,241,0.2)] border border-indigo-500/30"

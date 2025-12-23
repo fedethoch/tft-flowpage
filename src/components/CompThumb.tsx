@@ -86,7 +86,7 @@ export default function CompThumb({
                       key={i}
                       src={url}
                       alt={`Item ${i + 1}`}
-                      className="h-[200px] w-auto max-w-full rounded-lg bg-white/5 border border-white/10 object-contain"
+                      className="h-[100px] sm:h-[200px] w-auto max-w-full rounded-lg bg-white/5 border border-white/10 object-contain"
                       loading="lazy"
                     />
                   ))}

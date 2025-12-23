@@ -56,7 +56,7 @@ export default function TierRow({
     <div className="flex gap-3 items-stretch">
       {/* bloque izquierdo */}
       <div
-        className={`${theme.leftBg} text-black rounded-2xl w-[90px] flex flex-col items-center justify-center relative overflow-hidden`}
+        className={`${theme.leftBg} text-black rounded-2xl w-[70px] sm:w-[90px] flex flex-col items-center justify-center relative overflow-hidden`}
       >
         <div className="text-5xl font-black leading-none">{tier}</div>
         <div className="text-[11px] font-bold opacity-80">{theme.label}</div>
