@@ -129,5 +129,39 @@
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/annie arcanist.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_cde20ddb-3c52-42ac-b6f3-ef755d152d42"
+  },
+  {
+    "id": "thex-piltover",
+    "name": "Thex Piltover",
+    "tier": "A",
+    "itemizacion": "AD",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/thex piltover.png",
+    "compImageUrl": "/assets/set 16/comps/thex piltover.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/thex.png",
+      "/assets/set 16/items/seraphine.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/thex piltover.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_1f7c4ec5-6008-492c-a07e-147b39ed7bda"
+  },
+  {
+    "id": "kindred senna",
+    "name": "Kindred Senna",
+    "tier": "A",
+    "itemizacion": "AD",
+    "estilo": "FAST9",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/kindred senna.png",
+    "compImageUrl": "/assets/set 16/comps/kindred senna.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/kindred.png",
+      "/assets/set 16/items/senna.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/kindred senna.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_f6654a12-d6db-4f40-953f-3b2c638e86b6"
   }
 ]
