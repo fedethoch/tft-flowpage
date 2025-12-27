@@ -2,7 +2,7 @@
   {
     "id": "bw-miss-fortune",
     "name": "Bilgewater Miss Fortune",
-    "tier": "S",
+    "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "heroAugment": false,
@@ -15,12 +15,12 @@
       "/assets/set 16/items/tham kench.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/mf bilgewater.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_91e3e85e-348e-4e9b-86fc-ffc8ffc60bd9"
+    "guideUrl": "https://www.metatft.com/team-builder/team_c4740015-98f5-488d-8f17-d4ced1ea2b6e"
   },
   {
     "id": "yunara-ionia",
     "name": "Yunara Ionia",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "heroAugment": false,
@@ -29,7 +29,7 @@
     "compImageUrl": "/assets/set 16/comps/yunara ionia.png",
     "bestItemsImageUrl": ["/assets/set 16/items/ionia.png"],
     "bestAugmentsImageUrl": "/assets/set 16/augments/yunara ionia.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_72f91e12-a236-4794-a4d0-4a481f5d04a5"
+    "guideUrl": "https://www.metatft.com/team-builder/team_9bfef7d4-9f48-4344-a983-70b5625e3692"
   },
   {
     "id": "diana",
@@ -77,7 +77,7 @@
       "/assets/set 16/items/lux.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/demacia.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_0d163959-40e1-49e0-a574-a8f38b716e4d"
+    "guideUrl": "https://www.metatft.com/team-builder/team_b8594e04-bd78-4933-8503-00ecee5d34ac"
   },
   {
     "id": "voli-ryze",
@@ -111,7 +111,7 @@
       "/assets/set 16/items/ashe.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/trynda ashe.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_3e6b0532-1983-4dfc-bb1e-aef244f87346"
+    "guideUrl": "https://www.metatft.com/team-builder/team_87755fcf-cfe0-4ad1-a90c-4f2e6c331806"
   },
   {
     "id": "annie-arcanist",
@@ -128,12 +128,12 @@
       "/assets/set 16/items/sylas.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/annie arcanist.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_cde20ddb-3c52-42ac-b6f3-ef755d152d42"
+    "guideUrl": "https://www.metatft.com/team-builder/team_2ccb4095-1cb4-41f9-951a-4e36ca215625"
   },
   {
     "id": "thex-piltover",
     "name": "Thex Piltover",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST8",
     "heroAugment": false,
@@ -148,9 +148,9 @@
     "guideUrl": "https://www.metatft.com/team-builder/team_1f7c4ec5-6008-492c-a07e-147b39ed7bda"
   },
   {
-    "id": "kindred senna",
+    "id": "kindred-senna",
     "name": "Kindred Senna",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "heroAugment": false,
@@ -163,5 +163,22 @@
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/kindred senna.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_f6654a12-d6db-4f40-953f-3b2c638e86b6"
+  },
+  {
+    "id": "lissandra",
+    "name": "Lissandra",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/lissandra.png",
+    "compImageUrl": "/assets/set 16/comps/lissandra.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/lissandra.png",
+      "/assets/set 16/items/seraphine.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/lissandra.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_43387aee-4e86-44bf-abe8-dcc0ea3b81d9"
   }
 ]
