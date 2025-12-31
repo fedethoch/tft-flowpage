@@ -34,7 +34,7 @@
   {
     "id": "diana",
     "name": "Diana",
-    "tier": "S",
+    "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "heroAugment": false,
@@ -60,7 +60,7 @@
       "/assets/set 16/items/kaisa.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/void baron.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_dab9d3b8-10b5-4026-8aed-c46e0d700e91"
+    "guideUrl": "https://www.metatft.com/team-builder/team_78aaff81-b907-49fc-a624-eef3bd4d996e"
   },
   {
     "id": "demacia-vayne",
@@ -84,7 +84,7 @@
     "name": "Voli Ryze",
     "tier": "A",
     "itemizacion": "BRUISER",
-    "estilo": "FAST8",
+    "estilo": "FAST9",
     "heroAugment": false,
 
     "carryImageUrl": "/assets/set 16/carries/voli ryze.png",
@@ -99,7 +99,7 @@
   {
     "id": "trynda-ashe",
     "name": "Trynda Ashe",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "heroAugment": false,
@@ -162,7 +162,7 @@
       "/assets/set 16/items/senna.png"
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/kindred senna.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_f6654a12-d6db-4f40-953f-3b2c638e86b6"
+    "guideUrl": "https://www.metatft.com/team-builder/team_2cb0ffd9-100c-4691-ba01-7135458c6da0"
   },
   {
     "id": "lissandra",
