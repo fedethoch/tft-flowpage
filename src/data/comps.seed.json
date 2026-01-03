@@ -22,7 +22,7 @@
     "name": "Yunara Ionia",
     "tier": "S",
     "itemizacion": "AD",
-    "estilo": "FAST9",
+    "estilo": "FAST8",
     "heroAugment": false,
 
     "carryImageUrl": "/assets/set 16/carries/yunara ionia.png",
@@ -99,7 +99,7 @@
   {
     "id": "trynda-ashe",
     "name": "Trynda Ashe",
-    "tier": "S",
+    "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "heroAugment": false,
@@ -180,5 +180,22 @@
     ],
     "bestAugmentsImageUrl": "/assets/set 16/augments/lissandra.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_43387aee-4e86-44bf-abe8-dcc0ea3b81d9"
+  },
+  {
+    "id": "brock-ixtal",
+    "name": "Brock",
+    "tier": "A",
+    "itemizacion": "BRUISER",
+    "estilo": "FAST9",
+    "heroAugment": false,
+
+    "carryImageUrl": "/assets/set 16/carries/brock ixtal.png",
+    "compImageUrl": "/assets/set 16/comps/brock ixtal.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/brock.png",
+      "/assets/set 16/items/lissandra.png"
+    ],
+    "bestAugmentsImageUrl": "/assets/set 16/augments/brock ixtal.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_73aea57e-14cd-4a9f-aa9d-41d3f18fd5ac"
   }
 ]
