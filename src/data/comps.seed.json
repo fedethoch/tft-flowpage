@@ -5,6 +5,7 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST9",
+    "open": "3 Bilgewater + Infinity Edge",
     "hero": false,
     "condiciones": ["Early 5 Bilgewater", "Econ Augments"],
     "carryImageUrl": "/assets/set 16/carries/mf bilgewater.png",
@@ -22,6 +23,7 @@
     "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST8",
+    "open": "3 Ionia + Guinsoo / Kraken",
     "hero": false,
     "condiciones": [
       "Strong Ionia opener",
@@ -40,6 +42,7 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
+    "open": "Bard + BIS Diana",
     "hero": false,
     "condiciones": [
       "Early Leona 2* to get Diana at a reasonable time",
@@ -58,6 +61,7 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST9",
+    "open": "Void Opener + Guinsoo",
     "hero": false,
     "condiciones": [
       "Void Opener",
@@ -78,6 +82,7 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
+    "open": "Vayne Orb",
     "hero": false,
     "condiciones": ["Strong Demacia opener"],
     "carryImageUrl": "/assets/set 16/carries/demacia.png",
@@ -95,6 +100,7 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST9",
+    "open": "Ahri Orb + HP Items",
     "hero": false,
     "condiciones": ["Lots of items", "Warmog’s Armor is preferred"],
     "carryImageUrl": "/assets/set 16/carries/voli ryze.png",
@@ -113,6 +119,7 @@
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "hero": false,
+    "open": "Ashe + Slam Item",
     "condiciones": [
       "QSS is required on Tryndamere",
       "Artifacts/Radiant Items Make this comp S+ tier",
@@ -135,6 +142,7 @@
     "itemizacion": "AP",
     "estilo": "FAST9",
     "hero": false,
+    "open": "Yordles Opener",
     "condiciones": ["Lots of money", "Yordle start"],
     "carryImageUrl": "/assets/set 16/carries/annie arcanist.png",
     "compImageUrl": "/assets/set 16/comps/annie arcanist.png",
@@ -152,6 +160,7 @@
     "itemizacion": "AD",
     "estilo": "FAST8",
     "hero": false,
+    "open": "Cait 2* + Sword / Crit",
     "condiciones": [
       "Lots of Caitlyn copies",
       "Reroll Augments 2-2",
@@ -174,6 +183,7 @@
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
+    "open": "Draven Orb + Noxus",
     "condiciones": [
       "Winstreak AD Opener",
       "Ability to reach level 9 with enough HP and Econ"
@@ -194,6 +204,7 @@
     "itemizacion": "AP",
     "estilo": "FAST8",
     "hero": false,
+    "open": "Invoker 2* + Mana",
     "condiciones": [
       "Tempo opener with any direction",
       "Solid default from low direction spots",
@@ -216,6 +227,7 @@
     "itemizacion": "BRUISER",
     "estilo": "FAST9",
     "hero": false,
+    "open": "Ixtal Opener (at least 2.3)",
     "condiciones": [
       "550 Cashout is the best balance of attainable and strong",
       "Ixtal Expedition Augments = S tier",

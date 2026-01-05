@@ -45,14 +45,21 @@ export default function TreeView({ comps }: { comps: Composition[] }) {
         {sections.map((sec) => (
           <TreeSection key={sec.itemizacion} title={sec.label}>
             {sec.groups.map((g) => (
-              <TreeSection key={g.key} title={g.label}>
-                <div className="flex flex-col gap-3 mt-2">
-                  {g.comps.map((c) => (
-                    <div key={c.id} className="tree-leaf">
-                      <CompCard comp={c} />
+              <TreeSection key={`${sec.itemizacion}:${g.key}`} title={g.label}>
+                {g.opens.map((o) => (
+                  <TreeSection
+                    key={`${sec.itemizacion}:${g.key}:${o.key}`}
+                    title={o.label}
+                  >
+                    <div className="flex flex-col gap-3 mt-2">
+                      {o.comps.map((c) => (
+                        <div key={c.id} className="tree-leaf">
+                          <CompCard comp={c} />
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
+                  </TreeSection>
+                ))}
               </TreeSection>
             ))}
           </TreeSection>

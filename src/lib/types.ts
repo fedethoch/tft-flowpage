@@ -10,6 +10,7 @@ export type Composition = {
   estilo: Estilo;
   hero: boolean;
   condiciones?: string[];
+  open?: string;
   carryImageUrl: string;
   compImageUrl: string;
   bestItemsImageUrl: string[];
@@ -25,6 +26,12 @@ export type TreeGroupKey = "REROLL" | "FAST8" | "FAST9" | "HERO";
 export type TreeGroup = {
   key: TreeGroupKey;
   label: string;
+  opens: TreeOpenGroup[];
+};
+
+export type TreeOpenGroup = {
+  key: string; // valor del open (o "__default__")
+  label: string; // lo que se muestra en el árbol
   comps: Composition[];
 };
 
