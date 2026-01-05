@@ -5,13 +5,11 @@ export type Estilo = "REROLL" | "FAST8" | "FAST9";
 export type Composition = {
   id: string;
   name: string;
-
   tier: Tier;
   itemizacion: Itemizacion;
   estilo: Estilo;
   heroAugment: boolean;
-  condicion?: string;
-
+  condiciones?: string[];
   carryImageUrl: string;
   compImageUrl: string;
   bestItemsImageUrl: string[];

@@ -89,6 +89,20 @@ export default function CompCard({ comp }: { comp: Composition }) {
               </div>
             </div>
 
+            <div>
+              <div className="text-[10px] uppercase tracking-wider font-bold text-white/50 mb-2">
+                Condiciones
+              </div>
+
+              <div className="flex flex-col gap-2 items-start">
+                {comp.condiciones?.map((c, i) => (
+                  <div key={i} className="text-sm text-white/70 leading-snug">
+                    • {c}
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <a
               href={comp.guideUrl}
               target="_blank"

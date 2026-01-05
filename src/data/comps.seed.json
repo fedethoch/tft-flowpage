@@ -5,16 +5,15 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST9",
-    "heroAugment": false,
-    "condicion": "Bilgewaters Opener",
-
+    "hero": false,
+    "condiciones": ["Early 5 Bilgewater", "Econ s"],
     "carryImageUrl": "/assets/set 16/carries/mf bilgewater.png",
     "compImageUrl": "/assets/set 16/comps/mf bilgewater.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/miss fortune.png",
       "/assets/set 16/items/tham kench.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/mf bilgewater.png",
+    "bestsImageUrl": "/assets/set 16/s/mf bilgewater.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_c4740015-98f5-488d-8f17-d4ced1ea2b6e"
   },
   {
@@ -23,12 +22,16 @@
     "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Strong Ionia opener",
+      "Econ Ionia Path is preferred",
+      "Guinsoo / Kraken"
+    ],
     "carryImageUrl": "/assets/set 16/carries/yunara ionia.png",
     "compImageUrl": "/assets/set 16/comps/yunara ionia.png",
     "bestItemsImageUrl": ["/assets/set 16/items/ionia.png"],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/yunara ionia.png",
+    "bestsImageUrl": "/assets/set 16/s/yunara ionia.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_9bfef7d4-9f48-4344-a983-70b5625e3692"
   },
   {
@@ -37,12 +40,16 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Early Leona 2* to get Diana at a reasonable time",
+      "BIS Diana (Rageblade/QSS, Titan’s Resolve, Bloodthirster)",
+      "Lose streak "
+    ],
     "carryImageUrl": "/assets/set 16/carries/diana.png",
     "compImageUrl": "/assets/set 16/comps/diana.png",
     "bestItemsImageUrl": ["/assets/set 16/items/diana.png"],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/diana.png",
+    "bestsImageUrl": "/assets/set 16/s/diana.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_384b426b-444e-471a-b6f5-25f95eb914fa"
   },
   {
@@ -51,15 +58,18 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST9",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Void Opener",
+      "Fast 8 for Kai’Sa / Access to level 10 (for winout)"
+    ],
     "carryImageUrl": "/assets/set 16/carries/void baron.png",
     "compImageUrl": "/assets/set 16/comps/void baron.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/baron.png",
       "/assets/set 16/items/kaisa.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/void baron.png",
+    "bestsImageUrl": "/assets/set 16/s/void baron.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_78aaff81-b907-49fc-a624-eef3bd4d996e"
   },
   {
@@ -68,15 +78,15 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": ["Strong Demacia opener"],
     "carryImageUrl": "/assets/set 16/carries/demacia.png",
     "compImageUrl": "/assets/set 16/comps/demacia.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/vayne.png",
       "/assets/set 16/items/lux.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/demacia.png",
+    "bestsImageUrl": "/assets/set 16/s/demacia.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_b8594e04-bd78-4933-8503-00ecee5d34ac"
   },
   {
@@ -85,15 +95,15 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST9",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": ["Lots of items", "Warmog’s Armor is preferred"],
     "carryImageUrl": "/assets/set 16/carries/voli ryze.png",
     "compImageUrl": "/assets/set 16/comps/voli ryze.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/ryze.png",
       "/assets/set 16/items/voli.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/voli ryze.png",
+    "bestsImageUrl": "/assets/set 16/s/voli ryze.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_3e6b0532-1983-4dfc-bb1e-aef244f87346"
   },
   {
@@ -102,15 +112,20 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "QSS is required on Tryndamere",
+      "Artifacts/Radiant Items Make this comp S+ tier",
+      "Early copies of Ashe/Tryndamere or a reroll ",
+      "Uncontested"
+    ],
     "carryImageUrl": "/assets/set 16/carries/trynda ashe.png",
     "compImageUrl": "/assets/set 16/comps/trynda ashe.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/trynda.png",
       "/assets/set 16/items/ashe.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/trynda ashe.png",
+    "bestsImageUrl": "/assets/set 16/s/trynda ashe.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_87755fcf-cfe0-4ad1-a90c-4f2e6c331806"
   },
   {
@@ -119,15 +134,15 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST9",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": ["Lots of money", "Yordle start"],
     "carryImageUrl": "/assets/set 16/carries/annie arcanist.png",
     "compImageUrl": "/assets/set 16/comps/annie arcanist.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/annie.png",
       "/assets/set 16/items/sylas.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/annie arcanist.png",
+    "bestsImageUrl": "/assets/set 16/s/annie arcanist.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_2ccb4095-1cb4-41f9-951a-4e36ca215625"
   },
   {
@@ -136,15 +151,20 @@
     "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Lots of Caitlyn copies",
+      "Reroll  2-1",
+      "Bard Unlock",
+      "Infinity Edge"
+    ],
     "carryImageUrl": "/assets/set 16/carries/thex piltover.png",
     "compImageUrl": "/assets/set 16/comps/thex piltover.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/thex.png",
       "/assets/set 16/items/seraphine.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/thex piltover.png",
+    "bestsImageUrl": "/assets/set 16/s/thex piltover.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_1f7c4ec5-6008-492c-a07e-147b39ed7bda"
   },
   {
@@ -153,15 +173,18 @@
     "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST9",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Winstreak AD Opener",
+      "Ability to reach level 9 with enough HP and Econ"
+    ],
     "carryImageUrl": "/assets/set 16/carries/kindred senna.png",
     "compImageUrl": "/assets/set 16/comps/kindred senna.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/kindred.png",
       "/assets/set 16/items/senna.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/kindred senna.png",
+    "bestsImageUrl": "/assets/set 16/s/kindred senna.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_2cb0ffd9-100c-4691-ba01-7135458c6da0"
   },
   {
@@ -170,15 +193,20 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST8",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "Tempo opener with any direction",
+      "Solid default from low direction spots",
+      "Lots of items",
+      "Warmog’s Armor is preferred"
+    ],
     "carryImageUrl": "/assets/set 16/carries/lissandra.png",
     "compImageUrl": "/assets/set 16/comps/lissandra.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/lissandra.png",
       "/assets/set 16/items/seraphine.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/lissandra.png",
+    "bestsImageUrl": "/assets/set 16/s/lissandra.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_43387aee-4e86-44bf-abe8-dcc0ea3b81d9"
   },
   {
@@ -187,15 +215,20 @@
     "tier": "A",
     "itemizacion": "BRUISER",
     "estilo": "FAST9",
-    "heroAugment": false,
-
+    "hero": false,
+    "condiciones": [
+      "550 Cashout is the best balance of attainable and strong",
+      "Ixtal Expedition  = S tier",
+      "Early Ixtal (2-3 latest)",
+      "Player HP s"
+    ],
     "carryImageUrl": "/assets/set 16/carries/brock ixtal.png",
     "compImageUrl": "/assets/set 16/comps/brock ixtal.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/brock.png",
       "/assets/set 16/items/lissandra.png"
     ],
-    "bestAugmentsImageUrl": "/assets/set 16/augments/brock ixtal.png",
+    "bestsImageUrl": "/assets/set 16/s/brock ixtal.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_73aea57e-14cd-4a9f-aa9d-41d3f18fd5ac"
   }
 ]

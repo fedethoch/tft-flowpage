@@ -58,7 +58,7 @@ export default function CompThumb({
                     Tier {comp.tier}
                   </span>
                   {comp.heroAugment ? "HERO AUGMENT" : comp.estilo}
-                  {comp.condicion ? ` · ${comp.condicion}` : ""}
+                  {comp.condiciones?.length ? ` · ${comp.condiciones[0]}` : ""}
                 </div>
               </div>
             </div>
@@ -89,6 +89,20 @@ export default function CompThumb({
                       className="h-[100px] sm:h-[200px] w-auto max-w-full rounded-lg bg-white/5 border border-white/10 object-contain"
                       loading="lazy"
                     />
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <div className="text-[10px] uppercase tracking-wider font-bold text-white/50 mb-2">
+                  Condiciones
+                </div>
+
+                <div className="flex flex-col gap-2 items-start">
+                  {comp.condiciones?.map((c, i) => (
+                    <div key={i} className="text-sm text-white/70 leading-snug">
+                      • {c}
+                    </div>
                   ))}
                 </div>
               </div>
