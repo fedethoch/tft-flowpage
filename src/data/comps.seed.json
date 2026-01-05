@@ -6,7 +6,7 @@
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
-    "condiciones": ["Early 5 Bilgewater", "Econ s"],
+    "condiciones": ["Early 5 Bilgewater", "Econ Augments"],
     "carryImageUrl": "/assets/set 16/carries/mf bilgewater.png",
     "compImageUrl": "/assets/set 16/comps/mf bilgewater.png",
     "bestItemsImageUrl": [
@@ -154,7 +154,7 @@
     "hero": false,
     "condiciones": [
       "Lots of Caitlyn copies",
-      "Reroll  2-1",
+      "Reroll Augments 2-2",
       "Bard Unlock",
       "Infinity Edge"
     ],
@@ -218,9 +218,9 @@
     "hero": false,
     "condiciones": [
       "550 Cashout is the best balance of attainable and strong",
-      "Ixtal Expedition  = S tier",
+      "Ixtal Expedition Augments = S tier",
       "Early Ixtal (2-3 latest)",
-      "Player HP s"
+      "Player HP Augments"
     ],
     "carryImageUrl": "/assets/set 16/carries/brock ixtal.png",
     "compImageUrl": "/assets/set 16/comps/brock ixtal.png",
