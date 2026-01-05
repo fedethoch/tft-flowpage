@@ -8,7 +8,7 @@ export type Composition = {
   tier: Tier;
   itemizacion: Itemizacion;
   estilo: Estilo;
-  heroAugment: boolean;
+  hero: boolean;
   condiciones?: string[];
   carryImageUrl: string;
   compImageUrl: string;

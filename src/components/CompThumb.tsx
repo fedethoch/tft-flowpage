@@ -57,7 +57,7 @@ export default function CompThumb({
                   <span className="bg-white/10 px-2 py-0.5 rounded text-white/80 mr-2">
                     Tier {comp.tier}
                   </span>
-                  {comp.heroAugment ? "HERO AUGMENT" : comp.estilo}
+                  {comp.hero ? "HERO AUGMENT" : comp.estilo}
                   {comp.condiciones?.length ? ` · ${comp.condiciones[0]}` : ""}
                 </div>
               </div>

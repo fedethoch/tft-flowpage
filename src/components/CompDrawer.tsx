@@ -42,9 +42,8 @@ export function CompDrawer({
           <div>
             <div style={{ fontWeight: 800, fontSize: 18 }}>{comp.name}</div>
             <div style={{ opacity: 0.75, fontSize: 13 }}>
-              {comp.itemizacion} ·{" "}
-              {comp.heroAugment ? "AUMENTO HÉROE" : comp.estilo} · Tier{" "}
-              {comp.tier}
+              {comp.itemizacion} · {comp.hero ? "AUMENTO HÉROE" : comp.estilo} ·
+              Tier {comp.tier}
             </div>
           </div>
           <button

@@ -34,7 +34,7 @@ export default function CompCard({ comp }: { comp: Composition }) {
             >
               Tier {comp.tier}
             </span>
-            {comp.heroAugment ? " · Hero" : ` · ${comp.estilo}`}
+            {comp.hero ? " · Hero" : ` · ${comp.estilo}`}
           </div>
         </div>
 

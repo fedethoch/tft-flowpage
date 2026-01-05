@@ -20,22 +20,22 @@ export function buildTreeSections(
       const itemComps = visible.filter((c) => c.itemizacion === item);
 
       const hero = itemComps
-        .filter((c) => c.heroAugment)
+        .filter((c) => c.hero)
         .slice()
         .sort(sortByTierThenName);
 
       const reroll = itemComps
-        .filter((c) => !c.heroAugment && c.estilo === "REROLL")
+        .filter((c) => !c.hero && c.estilo === "REROLL")
         .slice()
         .sort(sortByTierThenName);
 
       const fast8 = itemComps
-        .filter((c) => !c.heroAugment && c.estilo === "FAST8")
+        .filter((c) => !c.hero && c.estilo === "FAST8")
         .slice()
         .sort(sortByTierThenName);
 
       const fast9 = itemComps
-        .filter((c) => !c.heroAugment && c.estilo === "FAST9")
+        .filter((c) => !c.hero && c.estilo === "FAST9")
         .slice()
         .sort(sortByTierThenName);
 
