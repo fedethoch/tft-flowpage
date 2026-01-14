@@ -116,7 +116,7 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "open": "Vayne Orb",
+    "open": "Vayne Orb / Demacia Opener",
     "hero": false,
     "condiciones": ["Strong Demacia opener"],
     "carryImageUrl": "/assets/set 16/carries/vayne.png",
@@ -379,5 +379,23 @@
     ],
     "bestsImageUrl": "/assets/set 16/s/illaoi.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_d9c355db-b8d0-43c9-b886-6cc7591cfffb"
+  },
+  {
+    "id": "singed-seraphine",
+    "name": "Singed Seraphine",
+    "tier": "B",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "hero": false,
+    "open": "Lose Streak",
+    "condiciones": ["Lots of items", "Spike with 3 items Singed"],
+    "carryImageUrl": "/assets/set 16/carries/singed.png",
+    "compImageUrl": "/assets/set 16/comps/singed seraphine.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/singed.png",
+      "/assets/set 16/items/seraphine.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/singed seraphine.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_7cb0d29e-f80b-44d5-b1ea-1b98f9ce73f4"
   }
 ]
