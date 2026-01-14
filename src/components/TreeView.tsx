@@ -17,7 +17,7 @@ export default function TreeView({ comps }: { comps: Composition[] }) {
 
         {/* filtros de tier visibles (afecta al flow) */}
         <div className="flex bg-white/[0.03] p-1 rounded-xl border border-white/5 overflow-x-auto max-w-full no-scrollbar">
-          {(["S", "A", "B", "C", "D"] as Tier[]).map((t) => {
+          {(["S", "A", "B", "C"] as Tier[]).map((t) => {
             const isActive = tierVisible[t];
             return (
               <button

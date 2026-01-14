@@ -2,7 +2,7 @@
   {
     "id": "bw-miss-fortune",
     "name": "Bilgewater Miss Fortune",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "open": "3 Bilgewater + Infinity Edge",
@@ -15,12 +15,46 @@
       "/assets/set 16/items/tham kench.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/mf bilgewater.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_c4740015-98f5-488d-8f17-d4ced1ea2b6e"
+    "guideUrl": "https://www.metatft.com/team-builder/team_91e3e85e-348e-4e9b-86fc-ffc8ffc60bd9"
   },
+  {
+    "id": "riggs",
+    "name": "Riggs",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST9",
+    "open": "Yordle Opener / Ahri orb",
+    "hero": false,
+    "condiciones": ["Yordle Opener", "Ahri orb"],
+    "carryImageUrl": "/assets/set 16/carries/ziggs.png",
+    "compImageUrl": "/assets/set 16/comps/riggs.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/ziggs.png",
+      "/assets/set 16/items/ryze.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/riggs.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_3b119686-2cda-44e1-8d3b-234185f33391"
+  },
+  {
+    "id": "lux-demacia",
+    "name": "Lux Demacia",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "open": "Sona 2* / Demacia Opener",
+    "hero": false,
+    "condiciones": ["Demacia Emblem", "AP Items", "Demacia Opener"],
+    "carryImageUrl": "/assets/set 16/carries/lux.png",
+    "compImageUrl": "/assets/set 16/comps/lux demacia.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/lux.png"],
+    "bestsImageUrl": "/assets/set 16/s/lux demacia.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_8fe7d84c-2850-49c1-bf3e-ccc22b769f51"
+  },
+
   {
     "id": "yunara-ionia",
     "name": "Yunara Ionia",
-    "tier": "S",
+    "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
     "open": "3 Ionia + Guinsoo / Kraken",
@@ -32,14 +66,14 @@
     ],
     "carryImageUrl": "/assets/set 16/carries/yunara ionia.png",
     "compImageUrl": "/assets/set 16/comps/yunara ionia.png",
-    "bestItemsImageUrl": ["/assets/set 16/items/ionia.png"],
+    "bestItemsImageUrl": ["/assets/set 16/items/yunara.png"],
     "bestsImageUrl": "/assets/set 16/s/yunara ionia.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_9bfef7d4-9f48-4344-a983-70b5625e3692"
+    "guideUrl": "https://www.metatft.com/team-builder/team_72f91e12-a236-4794-a4d0-4a481f5d04a5"
   },
   {
     "id": "diana",
     "name": "Diana",
-    "tier": "A",
+    "tier": "C",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "open": "Bard + BIS Diana",
@@ -53,11 +87,11 @@
     "compImageUrl": "/assets/set 16/comps/diana.png",
     "bestItemsImageUrl": ["/assets/set 16/items/diana.png"],
     "bestsImageUrl": "/assets/set 16/s/diana.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_384b426b-444e-471a-b6f5-25f95eb914fa"
+    "guideUrl": "https://www.metatft.com/team-builder/team_d49ff4cd-4460-4281-9aa8-9be51ac8f0e5"
   },
   {
-    "id": "void-baron",
-    "name": "Void Baron",
+    "id": "void-kaisa",
+    "name": "Void Kaisa",
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST9",
@@ -67,55 +101,37 @@
       "Void Opener",
       "Fast 8 for Kai’Sa / Access to level 10 (for winout)"
     ],
-    "carryImageUrl": "/assets/set 16/carries/void baron.png",
-    "compImageUrl": "/assets/set 16/comps/void baron.png",
+    "carryImageUrl": "/assets/set 16/carries/void kaisa.png",
+    "compImageUrl": "/assets/set 16/comps/void kaisa.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/baron.png",
       "/assets/set 16/items/kaisa.png"
     ],
-    "bestsImageUrl": "/assets/set 16/s/void baron.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_78aaff81-b907-49fc-a624-eef3bd4d996e"
+    "bestsImageUrl": "/assets/set 16/s/void kaisa.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_ab416f12-9fe9-4f88-ad58-f86476b33552"
   },
   {
-    "id": "demacia-vayne",
-    "name": "Demacia",
+    "id": "vayne-demacia",
+    "name": "Vayne Demacia",
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
     "open": "Vayne Orb",
     "hero": false,
     "condiciones": ["Strong Demacia opener"],
-    "carryImageUrl": "/assets/set 16/carries/demacia.png",
-    "compImageUrl": "/assets/set 16/comps/demacia.png",
+    "carryImageUrl": "/assets/set 16/carries/vayne.png",
+    "compImageUrl": "/assets/set 16/comps/vayne demacia.png",
     "bestItemsImageUrl": [
       "/assets/set 16/items/vayne.png",
       "/assets/set 16/items/lux.png"
     ],
-    "bestsImageUrl": "/assets/set 16/s/demacia.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_b8594e04-bd78-4933-8503-00ecee5d34ac"
-  },
-  {
-    "id": "voli-ryze",
-    "name": "Voli Ryze",
-    "tier": "A",
-    "itemizacion": "BRUISER",
-    "estilo": "FAST9",
-    "open": "Ahri Orb + HP Items",
-    "hero": false,
-    "condiciones": ["Lots of items", "Warmog’s Armor is preferred"],
-    "carryImageUrl": "/assets/set 16/carries/voli ryze.png",
-    "compImageUrl": "/assets/set 16/comps/voli ryze.png",
-    "bestItemsImageUrl": [
-      "/assets/set 16/items/ryze.png",
-      "/assets/set 16/items/voli.png"
-    ],
-    "bestsImageUrl": "/assets/set 16/s/voli ryze.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_3e6b0532-1983-4dfc-bb1e-aef244f87346"
+    "bestsImageUrl": "/assets/set 16/s/vayne demacia.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_c8a94cb4-435a-4a16-a8f3-9dfce1e570e8"
   },
   {
     "id": "trynda-ashe",
     "name": "Trynda Ashe",
-    "tier": "A",
+    "tier": "C",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "hero": false,
@@ -133,16 +149,16 @@
       "/assets/set 16/items/ashe.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/trynda ashe.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_87755fcf-cfe0-4ad1-a90c-4f2e6c331806"
+    "guideUrl": "https://www.metatft.com/team-builder/team_276eeef0-add4-43d1-b4ef-c3c14c14bd27"
   },
   {
     "id": "annie-arcanist",
     "name": "Annie Arcanist",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "AP",
     "estilo": "FAST9",
     "hero": false,
-    "open": "Yordles Opener",
+    "open": "Yordle Opener",
     "condiciones": ["Lots of money", "Yordle start"],
     "carryImageUrl": "/assets/set 16/carries/annie arcanist.png",
     "compImageUrl": "/assets/set 16/comps/annie arcanist.png",
@@ -151,12 +167,12 @@
       "/assets/set 16/items/sylas.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/annie arcanist.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_2ccb4095-1cb4-41f9-951a-4e36ca215625"
+    "guideUrl": "https://www.metatft.com/team-builder/team_cde20ddb-3c52-42ac-b6f3-ef755d152d42"
   },
   {
     "id": "thex-piltover",
     "name": "Thex Piltover",
-    "tier": "S",
+    "tier": "C",
     "itemizacion": "AD",
     "estilo": "FAST8",
     "hero": false,
@@ -174,12 +190,12 @@
       "/assets/set 16/items/seraphine.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/thex piltover.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_1f7c4ec5-6008-492c-a07e-147b39ed7bda"
+    "guideUrl": "https://www.metatft.com/team-builder/team_3a7a5a34-ac24-4151-9f3e-cf9aaa5bdfbd"
   },
   {
     "id": "kindred-senna",
     "name": "Kindred Senna",
-    "tier": "S",
+    "tier": "B",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
@@ -195,12 +211,12 @@
       "/assets/set 16/items/senna.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/kindred senna.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_2cb0ffd9-100c-4691-ba01-7135458c6da0"
+    "guideUrl": "https://www.metatft.com/team-builder/team_f6654a12-d6db-4f40-953f-3b2c638e86b6"
   },
   {
     "id": "lissandra",
     "name": "Lissandra",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "AP",
     "estilo": "FAST8",
     "hero": false,
@@ -241,6 +257,60 @@
       "/assets/set 16/items/lissandra.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/brock ixtal.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_73aea57e-14cd-4a9f-aa9d-41d3f18fd5ac"
+    "guideUrl": "https://www.metatft.com/team-builder/team_2a4fc20e-6262-4c7d-be83-eeedf8b68907"
+  },
+  {
+    "id": "sona",
+    "name": "Sona",
+    "tier": "B",
+    "itemizacion": "AP",
+    "estilo": "REROLL",
+    "hero": false,
+    "open": ">3 Sonas 2.7 / Reroll Augment",
+    "condiciones": [""],
+    "carryImageUrl": "/assets/set 16/carries/sona.png",
+    "compImageUrl": "/assets/set 16/comps/sona.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/sona.png",
+      "/assets/set 16/items/seraphine.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/sonna.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_d1fdaee9-0984-4d6c-a058-590fc741ddb5"
+  },
+  {
+    "id": "gp-belveth",
+    "name": "GP Belveth",
+    "tier": "B",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "hero": false,
+    "open": "Briar 2* + Bruiser item",
+    "condiciones": ["3 Bilgewater"],
+    "carryImageUrl": "/assets/set 16/carries/gangplank.png",
+    "compImageUrl": "/assets/set 16/comps/gp belveth.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/gangplank.png",
+      "/assets/set 16/items/belveth.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/gp-belveth.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_f512aa08-5ae1-476e-815b-92f080c030c1"
+  },
+  {
+    "id": "ekko",
+    "name": "Ekko",
+    "tier": "B",
+    "itemizacion": "AP",
+    "estilo": "REROLL",
+    "hero": false,
+    "open": ">3 Ekkos 3.2 / Reroll Augment",
+    "condiciones": ["Early Ekko", "Zaun Opener", "Reroll Augments"],
+    "carryImageUrl": "/assets/set 16/carries/ekko.png",
+    "compImageUrl": "/assets/set 16/comps/ekko.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/ekko.png",
+      "/assets/set 16/items/seraphine.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/ekko.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_767e446c-c30e-4306-8607-994b73ce295b"
   }
 ]

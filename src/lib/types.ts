@@ -1,4 +1,4 @@
-export type Tier = "S" | "A" | "B" | "C" | "D";
+export type Tier = "S" | "A" | "B" | "C";
 export type Itemizacion = "AD" | "AP" | "BRUISER";
 export type Estilo = "REROLL" | "FAST8" | "FAST9";
 

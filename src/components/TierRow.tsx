@@ -1,7 +1,7 @@
 import CompThumb from "./CompThumb";
 import type { Composition, Tier } from "@/lib/types";
 import { useAppStore } from "@/state/useAppStore";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const tierTheme: Record<
   Tier,
@@ -31,12 +31,6 @@ const tierTheme: Record<
     border: "border-lime-400",
     glow: "shadow-[0_0_0_2px_rgba(163,230,53,0.18)]",
   },
-  D: {
-    label: "D TIER",
-    leftBg: "bg-emerald-400",
-    border: "border-emerald-400",
-    glow: "shadow-[0_0_0_2px_rgba(52,211,153,0.18)]",
-  },
 };
 
 export default function TierRow({
@@ -48,9 +42,20 @@ export default function TierRow({
 }) {
   const setTier = useAppStore((s) => s.setTier);
   const isAdmin = useAppStore((s) => s.isAdmin);
+  const selectedCompId = useAppStore((s) => s.selectedCompId);
   const [isOver, setIsOver] = useState(false);
 
   const theme = tierTheme[tier];
+
+  // Lógica de reordenamiento visual: Seleccionada primero
+  const displayComps = useMemo(() => {
+    const selectedComp = comps.find((c) => c.id === selectedCompId);
+
+    if (!selectedComp) return comps;
+
+    const others = comps.filter((c) => c.id !== selectedCompId);
+    return [selectedComp, ...others];
+  }, [comps, selectedCompId]);
 
   return (
     <div className="flex gap-3 items-stretch">
@@ -92,10 +97,10 @@ export default function TierRow({
           isOver ? "brightness-110" : "",
         ].join(" ")}
       >
-        {comps.length === 0 ? (
+        {displayComps.length === 0 ? (
           <div className="text-white/50 text-sm">No hay composiciones</div>
         ) : (
-          comps.map((c) => (
+          displayComps.map((c) => (
             <CompThumb
               key={c.id}
               comp={c}

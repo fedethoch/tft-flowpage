@@ -2,6 +2,7 @@ import seed from "@/data/comps.seed.json";
 import {
   loadTierOverrides,
   saveTierOverrides,
+  clearTierOverrides,
   loadTierVisibility,
   saveTierVisibility,
 } from "@/lib/storage";
@@ -20,6 +21,7 @@ type AppState = {
   isAdmin: boolean;
 
   setTier: (id: string, tier: Tier) => void;
+  resetTiers: () => void;
   toggleTierVisible: (tier: Tier) => void;
   openComp: (id: string) => void;
   closeComp: () => void;
@@ -31,7 +33,7 @@ const DEFAULT_VIS: TierVisibility = {
   A: true,
   B: false,
   C: false,
-  D: false,
+  // D eliminado
 };
 
 function applyOverrides(
@@ -40,6 +42,8 @@ function applyOverrides(
 ): Composition[] {
   return base.map((c) => {
     const t = overrides[c.id];
+    // Aseguramos que si hay overrides viejos con D, no rompan el tipo,
+    // pero idealmente "t" debería ser validado.
     return t ? { ...c, tier: t } : c;
   });
 }
@@ -67,6 +71,11 @@ export const useAppStore = create<AppState>((set, get) => {
       const currentOverrides = loadTierOverrides();
       const updated: TierOverrides = { ...currentOverrides, [id]: tier };
       saveTierOverrides(updated);
+    },
+
+    resetTiers: () => {
+      clearTierOverrides();
+      set({ comps: base });
     },
 
     toggleTierVisible: (tier) => {

@@ -16,6 +16,10 @@ export function saveTierOverrides(overrides: TierOverrides) {
   localStorage.setItem(KEY_OVERRIDES, JSON.stringify(overrides));
 }
 
+export function clearTierOverrides() {
+  localStorage.removeItem(KEY_OVERRIDES);
+}
+
 export function loadTierVisibility(): TierVisibility | null {
   try {
     const raw = localStorage.getItem(KEY_VIS);
@@ -30,5 +34,5 @@ export function saveTierVisibility(vis: TierVisibility) {
 }
 
 export function isTier(x: string): x is Tier {
-  return x === "S" || x === "A" || x === "B" || x === "C" || x === "D";
+  return x === "S" || x === "A" || x === "B" || x === "C";
 }

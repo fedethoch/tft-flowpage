@@ -7,7 +7,7 @@ import type {
 } from "./types";
 
 function sortByTierThenName(a: Composition, b: Composition) {
-  const order: Record<Tier, number> = { S: 0, A: 1, B: 2, C: 3, D: 4 };
+  const order: Record<Tier, number> = { S: 0, A: 1, B: 2, C: 3 };
   const t = order[a.tier] - order[b.tier];
   if (t !== 0) return t;
   return a.name.localeCompare(b.name);
