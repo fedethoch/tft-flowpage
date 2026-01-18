@@ -298,9 +298,9 @@
   {
     "id": "ekko",
     "name": "Ekko",
-    "tier": "B",
-    "itemizacion": "AP",
-    "estilo": "BRUISER",
+    "tier": "A",
+    "itemizacion": "BRUISER",
+    "estilo": "REROLL",
     "hero": false,
     "open": "Ekko Opener",
     "condiciones": ["Early Ekko", "Zaun Opener", "Reroll Augments"],
@@ -311,7 +311,7 @@
       "/assets/set 16/items/nidalee.png"
     ],
     "bestsImageUrl": "/assets/set 16/s/ekko.png",
-    "guideUrl": "https://www.metatft.com/team-builder/team_767e446c-c30e-4306-8607-994b73ce295b"
+    "guideUrl": "https://www.metatft.com/team-builder/team_e99048fe-5d00-42a5-bea0-ae54e498419e"
   },
   {
     "id": "veigar",
