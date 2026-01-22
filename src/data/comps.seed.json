@@ -2,7 +2,7 @@
   {
     "id": "bw-miss-fortune",
     "name": "Bilgewater Miss Fortune",
-    "tier": "S",
+    "tier": "B",
     "itemizacion": "AD",
     "estilo": "FAST8",
     "open": "Bilgewater Opener",
@@ -20,7 +20,7 @@
   {
     "id": "riggs",
     "name": "Riggs",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "AP",
     "estilo": "FAST9",
     "open": "Yordle Opener / Ahri Ionia Opener",
@@ -154,7 +154,7 @@
   {
     "id": "annie-arcanist",
     "name": "Annie Arcanist",
-    "tier": "B",
+    "tier": "C",
     "itemizacion": "AP",
     "estilo": "FAST9",
     "hero": false,
@@ -195,7 +195,7 @@
   {
     "id": "kindred-senna",
     "name": "Kindred Senna",
-    "tier": "B",
+    "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
@@ -262,7 +262,7 @@
   {
     "id": "sona",
     "name": "Sona",
-    "tier": "B",
+    "tier": "A",
     "itemizacion": "AP",
     "estilo": "REROLL",
     "hero": false,
@@ -280,7 +280,7 @@
   {
     "id": "gp-belveth",
     "name": "GP Belveth",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
@@ -397,5 +397,50 @@
     ],
     "bestsImageUrl": "/assets/set 16/s/singed seraphine.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_7cb0d29e-f80b-44d5-b1ea-1b98f9ce73f4"
+  },
+  {
+    "id": "aurelion-sol",
+    "name": "Aurelion Sol",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "FAST8",
+    "hero": false,
+    "open": "Asol Items / Leona or Zoe orb",
+    "condiciones": ["5 Targon Before 4.2", "Asol Items"],
+    "carryImageUrl": "/assets/set 16/carries/asol.png",
+    "compImageUrl": "/assets/set 16/comps/asol.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/asol.png"],
+    "bestsImageUrl": "/assets/set 16/s/aurelion sol.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_0d78d93c-620b-4a29-bbbe-7b11c52b0d74"
+  },
+  {
+    "id": "kalista",
+    "name": "Kalista",
+    "tier": "A",
+    "itemizacion": "AD",
+    "estilo": "FAST8",
+    "hero": false,
+    "open": "Viego 2*",
+    "condiciones": ["Viego 2* at 2.1 to unlock yorick"],
+    "carryImageUrl": "/assets/set 16/carries/kalista.png",
+    "compImageUrl": "/assets/set 16/comps/kalista.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/kalista.png"],
+    "bestsImageUrl": "/assets/set 16/s/kalista.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_2614aa66-97f4-4127-b3e5-b6fd9f282675"
+  },
+  {
+    "id": "warwick",
+    "name": "Warwick",
+    "tier": "A",
+    "itemizacion": "BRUISER",
+    "estilo": "FAST8",
+    "hero": false,
+    "open": "Briar 2*",
+    "condiciones": ["Vi + items"],
+    "carryImageUrl": "/assets/set 16/carries/warwick.png",
+    "compImageUrl": "/assets/set 16/comps/warwick.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/warwick.png"],
+    "bestsImageUrl": "/assets/set 16/s/warwick.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_801040fa-25f0-4ed6-a171-e6c9a2ec61ff"
   }
 ]
