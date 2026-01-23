@@ -23,7 +23,7 @@
     "tier": "B",
     "itemizacion": "AP",
     "estilo": "FAST9",
-    "open": "Yordle Opener / Ahri Ionia Opener",
+    "open": "Teemo / Ahri(gold ionia)",
     "hero": false,
     "condiciones": ["Yordle Opener", "Ahri orb"],
     "carryImageUrl": "/assets/set 16/carries/ziggs.png",
@@ -41,7 +41,7 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST8",
-    "open": "Demacia Opener",
+    "open": "Sonna 2*",
     "hero": false,
     "condiciones": ["Demacia Emblem", "AP Items", "Demacia Opener"],
     "carryImageUrl": "/assets/set 16/carries/lux.png",
@@ -116,7 +116,7 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "open": "Vayne Orb / Demacia Opener",
+    "open": "Vayne Orb",
     "hero": false,
     "condiciones": ["Strong Demacia opener"],
     "carryImageUrl": "/assets/set 16/carries/vayne.png",
@@ -179,7 +179,7 @@
     "open": "Cait 2* + Sword / Crit",
     "condiciones": [
       "Lots of Caitlyn copies",
-      "Reroll Augments 2-2",
+      "Reroll Augments 2-1",
       "Bard Unlock",
       "Infinity Edge"
     ],
@@ -199,7 +199,7 @@
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
-    "open": "Draven Orb + Noxus",
+    "open": "Draven Orb",
     "condiciones": [
       "Winstreak AD Opener",
       "Ability to reach level 9 with enough HP and Econ"
@@ -243,7 +243,7 @@
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Ixtal Opener (at least 2.3)",
+    "open": "Ixtal Opener",
     "condiciones": [
       "550 Cashout is the best balance of attainable and strong",
       "Ixtal Expedition Augments = S tier",
@@ -266,7 +266,7 @@
     "itemizacion": "AP",
     "estilo": "REROLL",
     "hero": false,
-    "open": "Demacia Opener + Reroll Augment",
+    "open": "Sonna 2*",
     "condiciones": [""],
     "carryImageUrl": "/assets/set 16/carries/sona.png",
     "compImageUrl": "/assets/set 16/comps/sona.png",
@@ -364,7 +364,7 @@
   {
     "id": "illaoi",
     "name": "Illaoi",
-    "tier": "A",
+    "tier": "C",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "hero": true,
@@ -383,7 +383,7 @@
   {
     "id": "singed-seraphine",
     "name": "Singed Seraphine",
-    "tier": "B",
+    "tier": "C",
     "itemizacion": "AP",
     "estilo": "FAST8",
     "hero": false,
@@ -401,11 +401,11 @@
   {
     "id": "aurelion-sol",
     "name": "Aurelion Sol",
-    "tier": "A",
+    "tier": "S",
     "itemizacion": "AP",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Asol Items / Leona or Zoe orb",
+    "open": "Zoe / Leona orb",
     "condiciones": ["5 Targon Before 4.2", "Asol Items"],
     "carryImageUrl": "/assets/set 16/carries/asol.png",
     "compImageUrl": "/assets/set 16/comps/asol.png",
@@ -435,12 +435,30 @@
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Briar 2*",
+    "open": "Vi + Zaun",
     "condiciones": ["Vi + items"],
     "carryImageUrl": "/assets/set 16/carries/warwick.png",
     "compImageUrl": "/assets/set 16/comps/warwick.png",
     "bestItemsImageUrl": ["/assets/set 16/items/warwick.png"],
     "bestsImageUrl": "/assets/set 16/s/warwick.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_801040fa-25f0-4ed6-a171-e6c9a2ec61ff"
+  },
+  {
+    "id": "aphelios",
+    "name": "Aphelios",
+    "tier": "B",
+    "itemizacion": "AD",
+    "estilo": "REROLL",
+    "hero": false,
+    "open": "Aphelios + Reroll augment*",
+    "condiciones": ["Aphelios + Bard + Neeko", "Reroll augment"],
+    "carryImageUrl": "/assets/set 16/carries/aphelios.png",
+    "compImageUrl": "/assets/set 16/comps/aphelios.png",
+    "bestItemsImageUrl": [
+      "/assets/set 16/items/aphelios.png",
+      "/assets/set 16/items/bard.png"
+    ],
+    "bestsImageUrl": "/assets/set 16/s/aphelios.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_76c5b3c8-8d3d-42f4-8f8b-181ad6667e0d"
   }
 ]
