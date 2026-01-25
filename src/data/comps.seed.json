@@ -41,7 +41,7 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST8",
-    "open": "Sonna 2*",
+    "open": "Sona/Jarvan 2*",
     "hero": false,
     "condiciones": ["Demacia Emblem", "AP Items", "Demacia Opener"],
     "carryImageUrl": "/assets/set 16/carries/lux.png",
@@ -57,7 +57,7 @@
     "tier": "A",
     "itemizacion": "AD",
     "estilo": "FAST8",
-    "open": "Ionia Opener",
+    "open": "Jhin/Shen 2*",
     "hero": false,
     "condiciones": [
       "Strong Ionia opener",
@@ -95,7 +95,7 @@
     "tier": "A",
     "itemizacion": "AP",
     "estilo": "FAST8",
-    "open": "Void Opener",
+    "open": "Kogmaw 2*",
     "hero": false,
     "condiciones": [
       "Void Opener",
@@ -195,7 +195,7 @@
   {
     "id": "kindred-senna",
     "name": "Kindred Senna",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "AD",
     "estilo": "FAST9",
     "hero": false,
@@ -243,7 +243,7 @@
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Ixtal Opener",
+    "open": "Ixtal Ideally 2.1, 2.3 at least",
     "condiciones": [
       "550 Cashout is the best balance of attainable and strong",
       "Ixtal Expedition Augments = S tier",
@@ -266,7 +266,7 @@
     "itemizacion": "AP",
     "estilo": "REROLL",
     "hero": false,
-    "open": "Sonna 2*",
+    "open": "Sona/Jarvan 2*",
     "condiciones": [""],
     "carryImageUrl": "/assets/set 16/carries/sona.png",
     "compImageUrl": "/assets/set 16/comps/sona.png",
@@ -284,7 +284,7 @@
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Briar 2* / Qiyana 2*",
+    "open": "Briar 2* / Qiyana 2* / Reksai + Chogath / GP orb",
     "condiciones": ["3 Bilgewater"],
     "carryImageUrl": "/assets/set 16/carries/gangplank.png",
     "compImageUrl": "/assets/set 16/comps/gp belveth.png",
@@ -298,7 +298,7 @@
   {
     "id": "ekko",
     "name": "Ekko",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "BRUISER",
     "estilo": "REROLL",
     "hero": false,
@@ -405,7 +405,7 @@
     "itemizacion": "AP",
     "estilo": "FAST8",
     "hero": false,
-    "open": "Zoe / Leona orb",
+    "open": "Zoe or Leona orb / Kogmaw 2* / Orianna unlocker",
     "condiciones": ["5 Targon Before 4.2", "Asol Items"],
     "carryImageUrl": "/assets/set 16/carries/asol.png",
     "compImageUrl": "/assets/set 16/comps/asol.png",
@@ -431,7 +431,7 @@
   {
     "id": "warwick",
     "name": "Warwick",
-    "tier": "A",
+    "tier": "B",
     "itemizacion": "BRUISER",
     "estilo": "FAST8",
     "hero": false,
@@ -460,5 +460,20 @@
     ],
     "bestsImageUrl": "/assets/set 16/s/aphelios.png",
     "guideUrl": "https://www.metatft.com/team-builder/team_76c5b3c8-8d3d-42f4-8f8b-181ad6667e0d"
+  },
+  {
+    "id": "orianna-reroll",
+    "name": "Orianna Reroll",
+    "tier": "A",
+    "itemizacion": "AP",
+    "estilo": "REROLL",
+    "hero": false,
+    "open": "Orianna + Reroll augment*",
+    "condiciones": ["Orianna + Bard + Neeko", "Reroll augment"],
+    "carryImageUrl": "/assets/set 16/carries/orianna.png",
+    "compImageUrl": "/assets/set 16/comps/orianna.png",
+    "bestItemsImageUrl": ["/assets/set 16/items/orianna.png"],
+    "bestsImageUrl": "/assets/set 16/s/orianna.png",
+    "guideUrl": "https://www.metatft.com/team-builder/team_417cf7e7-e063-418a-87ec-47c03ecfa844"
   }
 ]
